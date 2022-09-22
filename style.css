@@ -31,7 +31,7 @@ header + div {
 
 aside {
   background-color: rgb(58, 58, 58);
-  padding: 1rem;
+  padding: 2rem;
   color: whitesmoke;
   border: solid black;
 }
@@ -52,7 +52,7 @@ a {
 li {
   font-size: 30px;
 }
-img {
+footer img {
   height: auto;
   width: 30px;
 }
@@ -69,4 +69,19 @@ img {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   gap: 16px;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(207, 73, 32);
+  font-weight: bold;
+}
+
+main img {
+  height: auto;
+  width: 500px;
+  gap: 50px;
+  border: solid 8px #170eaf;
+}
+main p {
+  font-size: 40px;
 }
