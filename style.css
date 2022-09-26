@@ -13,13 +13,14 @@ body {
 }
 
 header {
-  background-color: #170eaf;
+  background-color: black;
   padding: 2rem;
   color: whitesmoke;
   font-size: 40px;
+  align-items: center;
 }
 footer {
-  background-color: #170eaf;
+  background-color: black;
   padding: 2rem;
   color: whitesmoke;
 }
@@ -30,7 +31,7 @@ header + div {
 }
 
 aside {
-  background-color: rgb(58, 58, 58);
+  background-color: rgb(0, 0, 0);
   padding: 2rem;
   color: whitesmoke;
   border: solid black;
@@ -50,7 +51,7 @@ a {
   color: aliceblue;
 }
 li {
-  font-size: 30px;
+  font-size: 20px;
 }
 footer img {
   height: auto;
@@ -60,28 +61,40 @@ footer img {
   display: flex;
   padding: 32px;
   font-family: sans-serif;
-
   color: aliceblue;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .head-list {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  gap: 16px;
+  gap: 24px;
 }
 a:hover {
   text-decoration: none;
-  color: rgb(207, 73, 32);
+  color: #262285;
   font-weight: bold;
 }
-
+main .container {
+  justify-content: center;
+}
 main img {
   height: auto;
   width: 500px;
-  gap: 50px;
-  border: solid 8px #170eaf;
+
+  border: solid 1px #f5f5f5;
+  border-radius: 8px;
 }
 main p {
   font-size: 40px;
+}
+.album-art p {
+  padding: 400px;
+  background-color: grey;
+}
+h1 {
+  background-color: black;
+  color: white;
+  padding-top: 45px;
+  padding-bottom: 70px;
+  font-size: 60px;
 }
